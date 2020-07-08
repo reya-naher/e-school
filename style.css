@@ -1,0 +1,117 @@
+body{
+        font-family: 'Poppins', sans-serif;
+}.container{
+        margin-bottom: 100px;
+}
+header{
+        background: #F0FFF0;
+}
+
+.signin{
+        border-radius: 33px;
+        padding: 5px 0px;
+        background-color: #21B573;
+}
+@media (min-width: 992px)
+{.navbar-expand-lg .navbar-nav .signin {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+.navbar-light .navbar-nav .nav-link {
+        color: rgb(16, 16, 16);
+}
+.navbar-light .navbar-nav .signin {
+        color: white;
+}
+/**********cover**********/
+.cover{
+        height: 380px;
+}
+.cover img{
+        width: 100%;
+}
+h6{
+        font-size: 16px;
+        line-height: 24px;
+        color: #FD511A;
+}
+.green-h1{
+        color:#21B573;
+}
+.cover h1{
+        font-size: 48px;
+        line-height: 70px;
+        font-weight: bold;
+}
+.cover p{
+        font-size: 16px;
+        line-height: 36px;
+        color: #6C6B6B;
+}
+.btn-customized{
+        background: #21B573;
+        border-radius: 33px;
+        padding: 12px 36px;
+        color: white;
+}
+/**********description**********/
+.card-group>.card{
+        margin-left: .25rem;
+        margin-right: .25rem;
+        border: 1px solid black;
+        background: #F8FFFB;
+        border-radius: 10px;
+}
+@media (min-width: 576px)
+{.card-group>.card+.card {
+        margin-left: .25rem;
+        margin-right: .25rem;
+        border: none;
+        background: #F8FFFB;
+        border-radius: 10px;
+}}
+.card-group .card-img-top{
+        width:40%;
+        height: 120px;
+        padding: 1.25rem;
+}
+@media (min-width: 576px)
+{.card-group>.card:not(:last-child){
+        border-radius: 10px;
+        border:none;
+}}
+@media (min-width: 576px)
+{.card-group>.card:hover {
+        background-color: white;
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}}
+.card-group .card-title, .card-deck .card-title{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #413960;
+}
+.card-group .card-text,.card-footer p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #585859;
+}
+/**********courses**********/
+.card-deck .card{
+        background-color: white;
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);   
+        border-radius: 18px;    
+}
+.card-footer {
+        background-color:white;
+        border-top: none;
+}
+.card-deck .card .card-img-top{
+        padding: 1.25rem;
+}
+.card-footer:last-child  {
+        border-radius: 18px;
+}
+
+
