@@ -1,6 +1,8 @@
 body{
         font-family: 'Poppins', sans-serif;
-}.container{
+}
+/**********header**********/
+.container{
         margin-bottom: 100px;
 }
 header{
@@ -98,6 +100,14 @@ h6{
         color: #585859;
 }
 /**********courses**********/
+.course-h1,.blog-h1{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        color: #413960;
+        text-align: center;
+        margin-bottom: 100px;
+}
 .card-deck .card{
         background-color: white;
         box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);   
@@ -113,5 +123,41 @@ h6{
 .card-footer:last-child  {
         border-radius: 18px;
 }
+/**********testimonial**********/
+.testimonial-h1{
+        font-size: 36px;
+        line-height: 54px;
+        margin-bottom: 50px;
+        color: #000000;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+}
+.testimonial{
+        width: 60%;
+}
+.testimonial img{
+        margin-right: 50px;
+}
+.testimonial p{
+        padding-top: 20px;
 
+}
+/**********footer**********/
+footer{
+        padding-top: 100px;
+        background-color:#282531;
+}
+.footer-text{
+        text-align: center;
+        font-size: 16px;
+        line-height: 30px;
+        color: #CDCDCD;
+}
+li, footer p {
+        color: #CDCDCD; 
+}
+ul{
+        list-style: none;
+        
+}
 
