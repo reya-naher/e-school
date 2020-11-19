@@ -1,163 +1,174 @@
-body{
-        font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 /**********header**********/
-.container{
-        margin-bottom: 100px;
+.container {
+  margin-bottom: 100px;
 }
-header{
-        background: #F0FFF0;
+header {
+  background: #f0fff0;
 }
 
-.signin{
-        border-radius: 33px;
-        padding: 5px 0px;
-        background-color: #21B573;
+.signin {
+  border-radius: 33px;
+  padding: 5px 0px;
+  background-color: #21b573;
 }
-@media (min-width: 992px)
-{.navbar-expand-lg .navbar-nav .signin {
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .signin {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-}
+  }
 }
 .navbar-light .navbar-nav .nav-link {
-        color: rgb(16, 16, 16);
+  color: rgb(16, 16, 16);
 }
 .navbar-light .navbar-nav .signin {
-        color: white;
+  color: white;
 }
 /**********cover**********/
-.cover{
-        height: 380px;
+.cover {
+  height: 380px;
 }
-.cover img{
-        width: 100%;
+.cover img {
+  width: 100%;
 }
-h6{
-        font-size: 16px;
-        line-height: 24px;
-        color: #FD511A;
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fd511a;
 }
-.green-h1{
-        color:#21B573;
+.green-h1 {
+  color: #21b573;
 }
-.cover h1{
-        font-size: 48px;
-        line-height: 70px;
-        font-weight: bold;
+.cover h1 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: bold;
 }
-.cover p{
-        font-size: 16px;
-        line-height: 36px;
-        color: #6C6B6B;
+.cover p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
 }
-.btn-customized{
-        background: #21B573;
-        border-radius: 33px;
-        padding: 12px 36px;
-        color: white;
+.btn-customized {
+  background: #21b573;
+  border-radius: 33px;
+  padding: 12px 36px;
+  color: white;
 }
 /**********description**********/
-.card-group>.card{
-        margin-left: .25rem;
-        margin-right: .25rem;
-        border: 1px solid black;
-        background: #F8FFFB;
-        border-radius: 10px;
+.card-group > .card {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border: 1px solid black;
+  background: #f8fffb;
+  border-radius: 10px;
 }
-@media (min-width: 576px)
-{.card-group>.card+.card {
-        margin-left: .25rem;
-        margin-right: .25rem;
-        border: none;
-        background: #F8FFFB;
-        border-radius: 10px;
-}}
-.card-group .card-img-top{
-        width:40%;
-        height: 120px;
-        padding: 1.25rem;
+@media (min-width: 576px) {
+  .card-group > .card + .card {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border: none;
+    background: #f8fffb;
+    border-radius: 10px;
+  }
 }
-@media (min-width: 576px)
-{.card-group>.card:not(:last-child){
-        border-radius: 10px;
-        border:none;
-}}
-@media (min-width: 576px)
-{.card-group>.card:hover {
-        background-color: white;
-        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
-}}
-.card-group .card-title, .card-deck .card-title{
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 36px;
-        color: #413960;
+.card-group .card-img-top {
+  width: 40%;
+  height: 120px;
+  padding: 1.25rem;
 }
-.card-group .card-text,.card-footer p {
-        font-size: 16px;
-        line-height: 24px;
-        color: #585859;
+@media (min-width: 576px) {
+  .card-group > .card:not(:last-child) {
+    border-radius: 10px;
+    border: none;
+  }
+}
+@media (min-width: 576px) {
+  .card-group > .card:hover {
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  }
+}
+.card-group .card-title,
+.card-deck .card-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+.card-group .card-text,
+.card-footer p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
 }
 /**********courses**********/
-.course-h1,.blog-h1{
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 54px;
-        color: #413960;
-        text-align: center;
-        margin-bottom: 100px;
+.course-h1,
+.blog-h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+  text-align: center;
+  margin-bottom: 100px;
 }
-.card-deck .card{
-        background-color: white;
-        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);   
-        border-radius: 18px;    
+.card-deck .card {
+  background-color: white;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
 }
 .card-footer {
-        background-color:white;
-        border-top: none;
+  background-color: white;
+  border-top: none;
 }
-.card-deck .card .card-img-top{
-        padding: 1.25rem;
+.card-deck .card .card-img-top {
+  padding: 1.25rem;
 }
-.card-footer:last-child  {
-        border-radius: 18px;
+.card-footer:last-child {
+  border-radius: 18px;
 }
 /**********testimonial**********/
-.testimonial-h1{
-        font-size: 36px;
-        line-height: 54px;
-        margin-bottom: 50px;
-        color: #000000;
-        text-align: center;
-        font-family: 'Lato', sans-serif;
+.testimonial-h1 {
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 50px;
+  color: #000000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
-.testimonial{
-        width: 60%;
+.testimonial {
+  width: 60%;
 }
-.testimonial img{
-        margin-right: 50px;
+.testimonial img {
+  margin-right: 50px;
 }
-.testimonial p{
-        padding-top: 20px;
-
+.testimonial p {
+  padding-top: 20px;
 }
 /**********footer**********/
-footer{
-        padding-top: 100px;
-        background-color:#282531;
+footer {
+  padding-top: 100px;
+  background-color: #282531;
 }
-.footer-text{
-        text-align: center;
-        font-size: 16px;
-        line-height: 30px;
-        color: #CDCDCD;
+.footer-text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  color: #cdcdcd;
 }
-li, footer p {
-        color: #CDCDCD; 
+li,
+footer p {
+  color: #cdcdcd;
 }
-ul{
-        list-style: none;
-        
+ul {
+  list-style: none;
 }
-
+a{
+  color:white;
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
